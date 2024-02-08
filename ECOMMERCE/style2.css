@@ -1,282 +1,169 @@
-*{
-    margin:0;
-    padding:0;
-    border:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    background-image:url(arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.avif);
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://via.placeholder.com/1500x1000');
+    /* Replace with your background image URL */
     background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
-.navbar{
-    height:80px;
-    background-color: whitesmoke;
-    display:flex;
-    /* align-items: center; */
-    justify-content: space-evenly;
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
 
+header {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.logo{
-    height:50px;
-    width:90px;
-    background-image:url(Untitled.jpeg);
-    background-size: cover;
-    position:absolute;
-    left:5px;
-    top:10px;
-    /* z-index:10; */
-    box-shadow: 5px 5px 20px red;
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.navaddress{
-    height:50px;
-    width:50px;
-    margin-left: 150px;
-    margin-top:0px;
-    justify-content: space-evenly;
-    
+
+.logo img {
+    height: 50px;
+    width: auto;
 }
-.searchbox{
-    height:60px;
-    width:900px;
-    position:relative;
-    bottom: 5px;
-    padding-left: 5px;
-    display:flex;
-    margin-top:10px;
-    margin-left:70px;
-    
-    
+
+.search-container {
+    display: flex;
+    align-items: center;
 }
-.eleutheromaniac{
-    width:1000px;
+
+.search-container input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
 }
-.all{
-    width:90px;
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
-.searchicon{
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 20px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-items a:hover {
+    color: #4CAF50;
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
     margin-top: 20px;
-    height:50px;
-    width:50px;
-}
-.signin{
-    margin-left: 20px;
-    margin-top: 15px;
-}
-span{
-    font-size: 20px;
-}
-.nav-second{
-    font-size: 20px;
-    font-weight: 700;
-    /* font-family: Arial, Helvetica, sans-serif ; */
-}
-.navreturns{
-    margin-left: 40px;
-    margin-top: 15px;
-    font-size: 20px;
-    
 }
 
-.orders{
-    font-size: 20px;
-    font-weight: 700;
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-.cart{
-    display:flex;
-    font-size: 20px;
-    margin-left: 40px;
-    margin-top: 15px;
-    font-weight: 700;
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.nav2{
-    height:60px;
+.product-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nav2 {
+    height: 60px;
     background-color: bisque;
 }
 
-.marquee1{
+.marquee1 {
     font-size: 50px;
 }
 
-.nav3{
-    height:60px;
+.nav3 {
+    height: 60px;
     background-color: coral;
 }
-.marquee2{
+
+.marquee2 {
     font-size: 50px;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
-/* IMAGES OF SHOES */
-.shoes{
-    height:700px;
-    display: flex;
-    z-index: 2;
-
-}
-/* .shoes{
-    height:400px;
-    display: flex;
-    z-index: 2;
-
-} */
-.puma1{
-    background-image: url(puma1.jpeg);
-    height:700px;
-    width:600px;
-    background-size: cover;
-}
-.puma2{
-    background-image: url(puma2.jpeg);
-    height:700px;
-    width:800px;
-    background-size: cover;
-}
-.puma3{
-    background-image: url(puma3.jpeg);
-    height:700px;
-    width:700px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.shoesdiscount{
-    height:50px;
-    background-color: azure ;
+.jewelsdiscount {
+    height: 50px;
+    background-color: azure;
     font-size: 50px;
-    color:black;
+    color: black;
     font-weight: 700;
-    
 }
 
-.dresses{
-    height:700px;
-    display: flex;
-    z-index: 2;
-
-}
-.dress1{
-    background-image: url(dress1.jpeg);
-    height:700px;
-    width:700px;
-    background-size: cover;
-
-}
-
-.dress2{
-    background-image: url(dress4.jpeg);
-    height:700px;
-    width:700px;
-    background-size: cover;
-
-}
-
-.dress3{
-    background-image: url(dress3.jpeg);
-    height:700px;
-    width:700px;
-    background-size: cover;
-    
-}
-.dressdiscount{
-    height:50px;
-    background-color: azure ;
+.partydiscount {
+    height: 50px;
+    background-color: azure;
     font-size: 50px;
-    color:black;
+    color: black;
     font-weight: 700;
-    
-}
-
-.party{
-    height:500px;
-    display: flex;
-    z-index: 2;
-
-}
-.party1{
-    background-image: url(party1.jpeg);
-    height:500px;
-    width:500px;
-    background-size: cover;
 
 }
 
-.party2{
-    background-image: url(party2.jpeg);
-    height:500px;
-    width:500px;
-    background-size: cover;
-
-}
-
-.party3{
-    background-image: url(party4.jpeg);
-    height:500px;
-    width:500px;
-    background-size: cover;
-    
-}
-.party4{
-    background-image: url(party5.webp);
-    height:500px;
-    width:500px;
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-    
-}
-.partydiscount{
-    height:50px;
-    background-color: azure ;
+.dressdiscount {
+    height: 50px;
+    background-color: azure;
     font-size: 50px;
-    color:black;
+    color: black;
     font-weight: 700;
-    
 }
 
-.jewels{
-    height:500px;
-    display: flex;
-    z-index: 2;
-
-}
-.jewels1{
-    background-image: url(jewel1.jpeg);
-    height:500px;
-    width:500px;
-    background-size: cover;
-
-}
-
-.jewels2{
-    background-image: url(jewel2.jpeg);
-    height:500px;
-    width:500px;
-    background-size: cover;
-
-}
-
-.jewels3{
-    background-image: url(jewel3.jpeg);
-    height:500px;
-    width:500px;
-    background-size: cover;
-    
-}
-.jewels4{
-    background-image: url(jewels4.jpeg);
-    height:500px;
-    width:500px;
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-    
-}
-.jewelsdiscount{
-    height:50px;
-    background-color: azure ;
+.shoesdiscount {
+    height: 50px;
+    background-color: azure;
     font-size: 50px;
-    color:black;
+    color: black;
     font-weight: 700;
-    
 }
-
