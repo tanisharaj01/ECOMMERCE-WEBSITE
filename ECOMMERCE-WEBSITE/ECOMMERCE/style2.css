@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://via.placeholder.com/1500x1000');
+    /* Replace with your background image URL */
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 20px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-items a:hover {
+    color: #4CAF50;
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nav2 {
+    height: 60px;
+    background-color: bisque;
+}
+
+.marquee1 {
+    font-size: 50px;
+}
+
+.nav3 {
+    height: 60px;
+    background-color: coral;
+}
+
+.marquee2 {
+    font-size: 50px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.jewelsdiscount {
+    height: 50px;
+    background-color: azure;
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+}
+
+.partydiscount {
+    height: 50px;
+    background-color: azure;
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+
+}
+
+.dressdiscount {
+    height: 50px;
+    background-color: azure;
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+}
+
+.shoesdiscount {
+    height: 50px;
+    background-color: azure;
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+}
