@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: border-box;
+}
+
+
+body{
+    background-image: url(images.jpeg);
+    background-size: contain;
+    
+
+
+}
+.image{
+    height:700px;
+    width:700px;
+    /* background-color: aquamarine; */
+    background-image: url(tanisha\ 2024-02-07\ at\ 23.57.54.jpeg);
+    background-size: contain;
+    position: relative;
+    top:150px;
+    left:600px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px white;
+    border:2px solid black;
+    z-index:20;
+}
+
+.logo{
+    /* border-radius: 50%; */
+    height:120px;
+    width:200px;
+    background-image: url(Untitled.jpeg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    position: relative;
+    bottom:700px;
+    box-shadow:10px 5px 10px white;
+    z-index:20;
+
+
+}
+.border:hover{
+    border:3px double red;
+    /* box-shadow: 10px 5px 5px white; */
+
+}
+.submit{
+    position:fixed;
+    /* right:0px; */
+    
+}
+
+.submit{
+    font-size: 30px;
+    width:400px;
+    height:50px;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
